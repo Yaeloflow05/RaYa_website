@@ -269,8 +269,8 @@
 
     <div class="controls">
         <button class="filter-btn active" onclick="filterCatalog('all', this)">All Items</button>
-        <button class="filter-btn" onclick="filterCatalog('resort', this)">Resortwear</button>
-        <button class="filter-btn" onclick="filterCatalog('swim-surf', this)">Swim & Surf</button>
+        <button class="filter-btn" onclick="filterCatalog('resort', this)">Long Sleeve</button>
+        <button class="filter-btn" onclick="filterCatalog('swim-surf', this)">Short Sleeve</button>
     </div>
 
     <main class="catalog-container" id="catalog"></main>
@@ -280,26 +280,26 @@
         const WHATSAPP_PHONE = "527752388741"; 
 
         const products = [
-            { id: 1, name: "Marlin", price: 650.00, image: "/camisa1.jpg", category: "Manga larga" },
-            { id: 2, name: "Barracuda", price: 650.00, image: "/camisa2.jpg", category: "Manga larga" },
-            { id: 3, name: "Tuna", price: 650.00, image: "/camisa2.jpg", category: "Manga larga" },
-            { id: 4, name: "Stingray", price: 650.00, image: "/camisa2.jpg", category: "Manga larga" },
-            { id: 5, name: "Sardine", price: 650.00, image: "/camisa2.jpg", category: "Manga larga" },
-            { id: 6, name: "Shark", price: 650.00, image: "/camisa3.jpg", category: "Manga larga" } ,
-            { id: 7, name: "Starfish", price: 650.00, image: "/camisa4.jpg", category: "Manga larga" },
-            { id: 8, name: "Octopus", price: 650.00, image: "/camisa4.jpg", category: "Manga larga" },
-            { id: 9, name: "Whale", price: 650.00, image: "/camisa4.jpg", category: "Manga larga" },
-            { id: 10, name: "Seehorse", price: 650.00, image: "/camisa4.jpg", category: "Manga larga" },
-            { id: 11, name: "Coral", price: 680.00, image: "/camisa1.jpg", category: "Manga corta" },
-            { id: 2, name: "Sand", price: 680.00, image: "/camisa2.jpg", category: "Manga corta" },
-            { id: 3, name: "Sea", price: 680.00, image: "/camisa2.jpg", category: "Manga corta" },
-            { id: 4, name: "Wave", price: 680.00, image: "/camisa2.jpg", category: "Manga corta" },
-            { id: 5, name: "Shell", price: 680.00, image: "/camisa2.jpg", category: "Manga corta" },
-            { id: 6, name: "Depth", price: 680.00, image: "/camisa3.jpg", category: "Manga corta" } ,
-            { id: 7, name: "Coast", price: 680.00, image: "/camisa4.jpg", category: "Manga corta" },
-            { id: 8, name: "Ocean", price: 680.00, image: "/camisa4.jpg", category: "Manga corta" },
-            { id: 9, name: "Reef", price: 680.00, image: "/camisa4.jpg", category: "Manga corta" },
-            { id: 10, name: "Cape", price: 680.00, image: "/camisa4.jpg", category: "Manga corta" }
+            { id: 1, name: "Marlin", price: 650.00, image: "/camisa1.jpg", category: "Long SleeveL" },
+            { id: 2, name: "Barracuda", price: 650.00, image: "/camisa2.jpg", category: "Long Sleeve" },
+            { id: 3, name: "Tuna", price: 650.00, image: "/camisa2.jpg", category: "Long Sleeve" },
+            { id: 4, name: "Stingray", price: 650.00, image: "/camisa2.jpg", category: "Long Sleeve" },
+            { id: 5, name: "Sardine", price: 650.00, image: "/camisa2.jpg", category: "Long Sleeve" },
+            { id: 6, name: "Shark", price: 650.00, image: "/camisa3.jpg", category: "Long Sleeve" } ,
+            { id: 7, name: "Starfish", price: 650.00, image: "/camisa4.jpg", category: "Long Sleeve" },
+            { id: 8, name: "Octopus", price: 650.00, image: "/camisa4.jpg", category: "Long Sleeve" },
+            { id: 9, name: "Whale", price: 650.00, image: "/camisa4.jpg", category: "Long Sleeve" },
+            { id: 10, name: "Seehorse", price: 650.00, image: "/camisa4.jpg", category: "Long Sleeve" },
+            { id: 11, name: "Coral", price: 680.00, image: "/camisa1.jpg", category: "Short Sleeve" },
+            { id: 2, name: "Sand", price: 680.00, image: "/camisa2.jpg", category: "Short Sleeve" },
+            { id: 3, name: "Sea", price: 680.00, image: "/camisa2.jpg", category: "Short Sleeve" },
+            { id: 4, name: "Wave", price: 680.00, image: "/camisa2.jpg", category: "Short Sleeve" },
+            { id: 5, name: "Shell", price: 680.00, image: "/camisa2.jpg", category: "Short Sleeve" },
+            { id: 6, name: "Depth", price: 680.00, image: "/camisa3.jpg", category: "Short Sleeve" } ,
+            { id: 7, name: "Coast", price: 680.00, image: "/camisa4.jpg", category: "Short Sleeve" },
+            { id: 8, name: "Ocean", price: 680.00, image: "/camisa4.jpg", category: "Short Sleeve" },
+            { id: 9, name: "Reef", price: 680.00, image: "/camisa4.jpg", category: "Short Sleeve" },
+            { id: 10, name: "Cape", price: 680.00, image: "/camisa4.jpg", category: "Short Sleeve" }
         ];
 
         const catalogContainer = document.getElementById('catalog');
