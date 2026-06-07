@@ -1,0 +1,2 @@
+import{registerApplication as e,start as s}from"single-spa";e({name:"@single-spa/welcome",app:function(){return import("https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js")},activeWhen:["/"]}),s({urlRerouteOnly:!0});
+//# sourceMappingURL=raya-website-root-config.js.map
