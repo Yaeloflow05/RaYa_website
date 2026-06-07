@@ -266,8 +266,7 @@
         // Helper function to cleanly build safe URL encoded message query structures
         function generateWhatsAppUrl(productName, productPrice) {
             const baseMessage = `Hello RAYA! I am interested in ordering the ${productName} ($${productPrice.toFixed(2)}). Is this item available?`;
-            //const encodedText = encodeURIComponent(baseMessage);
-            const encodedText = 'TEST';
+            const encodedText = encodeURIComponent(baseMessage);
             return `https://wa.me/${WHATSAPP_PHONE}?text=${encodedText}`;
         }
 
