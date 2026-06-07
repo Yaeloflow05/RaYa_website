@@ -171,28 +171,27 @@
             border-color: var(--accent-sand);
         }
 
-        /* Warm Sand 100px Image Frame */
-        .image-wrapper {
-            width: 100%;
-            height: 240px; 
-            background-color: #f6f3ed;
-            border-radius: var(--radius-md);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-            overflow: hidden;
-        }
+/* Warm Sand Image Frame */
+.image-wrapper {
+    width: 100%;
+    height: 240px; 
+    background-color: #f6f3ed;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 
-        /* Preserved 100px strict constraint layout layout */
-        .image-wrapper img {
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-            filter: drop-shadow(0 10px 20px rgba(30,41,59,0.08));
-            transition: var(--transition);
-        }
-
+/* Updated to make the image fill the entire container beautifully */
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crops the image slightly to fill the space perfectly without distortion */
+    filter: drop-shadow(0 10px 20px rgba(30,41,59,0.08));
+    transition: var(--transition);
+}
         .card:hover .image-wrapper img {
             transform: scale(1.1) rotate(2deg);
         }
